@@ -26,11 +26,11 @@ public class ContaTerminal {
         numeroAgencia = numeroAgencia.replaceAll("\\s+","");
         nomeCliente = nomeCliente.replaceAll("\\s+","");
 
-        exibeMensagem(numeroConta, numeroAgencia, nomeCliente, saldoNaConta);
+        exibeMensagemBoasVindas(numeroConta, numeroAgencia, nomeCliente, saldoNaConta);
 
     }
 
-    public static void exibeMensagem(int numeroConta, String numeroAgencia, String nomeCliente, double saldoNaConta){
+    public static void exibeMensagemBoasVindas(int numeroConta, String numeroAgencia, String nomeCliente, double saldoNaConta){
         System.out.printf("Olá %s, obrigado por criar uma conta em nosso banco, sua agência é %s, conta %d e seu saldo %2f já está disponível para saque.", 
         nomeCliente, numeroAgencia, numeroConta, saldoNaConta);
     }

@@ -1,18 +1,10 @@
-## Getting Started
+# DIO TRILHA JAVA BÁSICO
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+![Java](https://img.shields.io/badge/Java-FF0000?style=for-the-badge&logo=java)
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Desafio de código:
+Projeto feito em resposta ao desafio de código proposto pela [DIO](https://www.dio.me/) em sua trilha de aprendizando sobre Java básico.
+<p>
+O desafio consiste em criar um projeto java simulando uma conta bancária básica. O método principal pedirá informações a respeito da conta e através de um outro método, será exibido uma mensagem agradecendo pelas informações e exibindo as mesmas formatadas em uma frase.
+<p>
+O curso ensina a concatenar utilizando "+", por exemplo: `System.out.println("texto 1 " + info)`, mas, pesquisando sobre print em Java, aprendi e me senti mais a vontade de usar o `System.out.printf("texto 1 %s", info)`. Essa então é a única alteração que fiz em relação ao conteúdo do curso, sendo então compatível com tudo o que foi aprendido até agora.

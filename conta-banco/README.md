@@ -3,7 +3,7 @@
 ![Java](https://img.shields.io/badge/Java-FF0000?style=for-the-badge&logo=java)
 
 ## Desafio de código:
-Projeto feito em resposta ao desafio de código proposto pela [DIO](https://www.dio.me/) em sua trilha de aprendizando sobre Java básico.
+Projeto feito em resposta ao desafio de código proposto pela [DIO](https://www.dio.me/) em sua trilha de aprendizando sobre Java básico. O mesmo pode ser encontrado [aqui](https://github.com/digitalinnovationone/trilha-java-basico/tree/main/desafios/sintaxe).
 <p>
 O desafio consiste em criar um projeto java simulando uma conta bancária básica. O método principal pedirá informações a respeito da conta e através de um outro método, será exibido uma mensagem agradecendo pelas informações e exibindo as mesmas formatadas em uma frase.
 <p>
